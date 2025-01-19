@@ -1,0 +1,18 @@
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1519px;
+	height: 785px;
+	background: url("images/barbie room game.jpeg") no-repeat center center;
+	background-size: cover;
+	z-index: -1;
+}
+
+.girl img {
+	width: 250px;
+	margin-left: 80%;
+	position: relative;
+	overflow: visible;
+	z-index: 1;
+}
