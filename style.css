@@ -1,3 +1,8 @@
+body {
+	display: flex;
+	height: 80vh;
+}
+
 .background {
 	position: absolute;
 	top: 0;
@@ -11,8 +16,67 @@
 
 .girl img {
 	width: 250px;
-	margin-left: 80%;
+	margin-left: 450%;
 	position: relative;
 	overflow: visible;
 	z-index: 1;
+}
+
+.clothes {
+	position: relative;
+}
+
+.draggable {
+	position: absolute; /* Allows layering and precise placement */
+	width: 200px; /* Adjust the size of the clothes */
+	cursor: pointer;
+	user-select: none; /* Prevent text selection during dragging */
+}
+
+.draggable:nth-child(1) {
+	top: 300px;
+	left: 10px;
+	width: 200px;
+	height: 350px;
+}
+.draggable:nth-child(2) {
+	top: 600px;
+	left: 10px;
+	width: 80px;
+	height: 122px;
+}
+.draggable:nth-child(3) {
+	top: 100px;
+	left: 10px;
+}
+.draggable:nth-child(4) {
+	top: 300px;
+	left: 80px;
+	width: 200px;
+	height: 380px;
+}
+.draggable:nth-child(5) {
+	top: 600px;
+	left: 180px;
+	width: 80px;
+	height: 122px;
+}
+
+.draggable:nth-child(6) {
+	top: 100px;
+	left: 100px;
+}
+
+.draggable:nth-child(7) {
+	top: 270px;
+	left: 150px;
+	width: 100px;
+	height: 200px;
+}
+
+.draggable:nth-child(8) {
+	top: 110px;
+	left: 180px;
+	width: 100px;
+	height: 200px;
 }
